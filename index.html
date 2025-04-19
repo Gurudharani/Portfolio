@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gurudharani N | Portfolio</title>
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="font-poppins bg-gray-50 text-gray-800">
+
+    <!-- Navigation Bar -->
+    <header class="bg-white shadow-md fixed w-full z-30">
+        <nav class="container mx-auto flex items-center justify-between p-4">
+            <div class="flex items-center space-x-2 text-2xl font-bold text-indigo-600 dark:text-indigo-400">
+                <!-- SVG Logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-indigo-600 dark:text-indigo-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                </svg>
+                <span>GD</span>
+            </div>
+            <div class="menu-toggle cursor-pointer md:hidden text-2xl text-gray-300">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links hidden md:flex space-x-8 font-semibold">
+                <li><a href="#about" class="hover:text-indigo-600 transition">About</a></li>
+                <li><a href="#skills" class="hover:text-indigo-600 transition">Skills</a></li>
+                <li><a href="#vision" class="hover:text-indigo-600 transition">Vision</a></li>
+                <li><a href="#projects" class="hover:text-indigo-600 transition">Projects</a></li>
+                <li><a href="#achievements" class="hover:text-indigo-600 transition">Achievements</a></li>
+                <li><a href="#contact" class="hover:text-indigo-600 transition">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Mobile Menu -->
+        <ul class="mobile-nav-links md:hidden bg-white dark:bg-gray-900 shadow-md hidden flex-col space-y-4 p-4">
+            <li><a href="#about" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">About</a></li>
+            <li><a href="#skills" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">Skills</a></li>
+            <li><a href="#vision" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">Vision</a></li>
+            <li><a href="#projects" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">Projects</a></li>
+            <li><a href="#achievements" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">Achievements</a></li>
+            <li><a href="#contact" class="block hover:text-indigo-600 dark:hover:text-indigo-400 transition">Contact</a></li>
+        </ul>
+    </header>
+
+    <main class="pt-24 max-w-6xl mx-auto px-4">
+
+        <!-- About Section -->
+        <section id="about" class="about-content flex flex-col md:flex-row items-center gap-8 py-16">
+            <div class="text fade-in max-w-xl">
+                <h1 class="text-4xl font-extrabold mb-4">Hi! I am <span class="text-indigo-600 dark:text-indigo-400">Gurudharani N</span></h1>
+                <p class="mb-6 text-lg font-light dark:text-gray-300">I am a first-year Computer Science Engineering student with a strong passion for Cloud Computing and Computer Networks.</p>
+                <div class="flex space-x-4">
+                    <a href="your_cv_link.pdf" download class="btn inline-flex items-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-md shadow-md hover:bg-indigo-700 transition">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                    <a href="#contact" class="btn inline-flex items-center gap-2 border border-indigo-600 text-indigo-600 dark:text-indigo-400 px-5 py-3 rounded-md shadow-md hover:bg-indigo-50 dark:hover:bg-indigo-900 transition">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+            <img src="my_pic.jpg" alt="Profile Picture" class="fade-in rounded-lg max-w-xs w-full object-cover shadow-lg" />
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-16">
+            <h2 class="fade-in text-3xl font-bold mb-8 text-center">Skills</h2>
+            <div class="skills-container flex flex-wrap justify-center gap-4 text-indigo-600 font-semibold text-lg">
+                <span class="fade-in bg-indigo-100 px-4 py-2 rounded-full shadow-sm">Python</span>
+                <span class="fade-in bg-indigo-100 px-4 py-2 rounded-full shadow-sm">Cloud Computing</span>
+                <span class="fade-in bg-indigo-100 px-4 py-2 rounded-full shadow-sm">Linux</span>
+                <span class="fade-in bg-indigo-100 px-4 py-2 rounded-full shadow-sm">Computer Networks</span>
+            </div>
+        </section>
+
+        <!-- Visionary Section -->
+        <section id="vision" class="py-16 bg-white rounded-lg shadow-md px-6 max-w-4xl mx-auto">
+            <h2 class="fade-in text-3xl font-bold mb-8 text-center">Visionary</h2>
+            <div class="vision-container grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="card fade-in bg-indigo-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Personalization</h3>
+                    <p>My journey in tech has been filled with challenges, but I thrive on learning new technologies and solving real-world problems.</p>
+                </div>
+                <div class="card fade-in bg-indigo-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Why Hire Me?</h3>
+                    <p>I have a strong foundation in problem-solving, teamwork, and adaptability. I believe in continuous learning and delivering high-quality work.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-16">
+            <h2 class="fade-in text-3xl font-bold mb-8 text-center">Projects</h2>
+            <div class="projects-container grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="project-card fade-in float bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-3">Project 1</h3>
+                    <div class="tags flex gap-2 mb-3">
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">HTML</span>
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">CSS</span>
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
+                    </div>
+                    <p class="mb-4">Short description about the project. Explain what problem it solves and what technologies you used.</p>
+                    <div class="project-links flex space-x-4">
+                        <a href="#" class="btn inline-flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-indigo-700 transition">
+                            <i class="fas fa-code"></i> View Code
+                        </a>
+                        <a href="#" class="btn inline-flex items-center gap-2 border border-indigo-600 text-indigo-600 px-4 py-2 rounded-md shadow-md hover:bg-indigo-50 transition">
+                            <i class="fas fa-external-link-alt"></i> See Demo
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card fade-in float bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-3">Project 2</h3>
+                    <div class="tags flex gap-2 mb-3">
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">HTML</span>
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">CSS</span>
+                        <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-semibold">JavaScript</span>
+                    </div>
+                    <p class="mb-4">Short description about the project. Explain what problem it solves and what technologies you used.</p>
+                    <div class="project-links flex space-x-4">
+                        <a href="#" class="btn inline-flex items-center gap-2 bg-indigo-600 text-white px-4 py-2 rounded-md shadow-md hover:bg-indigo-700 transition">
+                            <i class="fas fa-code"></i> View Code
+                        </a>
+                        <a href="#" class="btn inline-flex items-center gap-2 border border-indigo-600 text-indigo-600 px-4 py-2 rounded-md shadow-md hover:bg-indigo-50 transition">
+                            <i class="fas fa-external-link-alt"></i> See Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section id="achievements" class="py-16 bg-white rounded-lg shadow-md px-6 max-w-4xl mx-auto">
+            <h2 class="fade-in text-3xl font-bold mb-8 text-center">Achievements & Certifications</h2>
+            <div class="achievements-container grid grid-cols-1 gap-6">
+                <div class="achievement-card fade-in bg-indigo-50 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-3">Certification 1</h3>
+                    <p>Description about the certification and what skills you gained from it. Include the issuing organization and date if applicable.</p>
+                </div>
+                <!-- Add more achievement cards as needed -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 max-w-3xl mx-auto px-6">
+            <h2 class="fade-in text-3xl font-bold mb-8 text-center dark:text-gray-200">Email Me</h2>
+            <form class="fade-in flex flex-col gap-4" novalidate>
+                <input type="text" placeholder="Your Name" required class="border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-gray-100" />
+                <input type="email" placeholder="Your Email" required class="border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-gray-100" />
+                <input type="text" placeholder="Subject" required class="border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-gray-100" />
+                <textarea placeholder="Your Message" required rows="5" class="border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 rounded-md px-4 py-2 resize-none focus:outline-none focus:ring-2 focus:ring-indigo-500 text-gray-900 dark:text-gray-100"></textarea>
+                <button type="submit" class="btn inline-flex items-center justify-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-md shadow-md hover:bg-indigo-700 transition">
+                    <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white shadow-inner py-8 mt-16 text-center">
+        <p class="mb-4 font-semibold">Connect with me:</p>
+        <div class="social-icons flex justify-center space-x-6 text-indigo-600 text-2xl">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn" class="hover:text-indigo-800 transition"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub" class="hover:text-indigo-800 transition"><i class="fab fa-github"></i></a>
+            <a href="mailto:youremail@gmail.com" aria-label="Email" class="hover:text-indigo-800 transition"><i class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/yourwhatsappnumber" target="_blank" aria-label="WhatsApp" class="hover:text-indigo-800 transition"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p class="mt-6 text-sm text-gray-500">&copy; 2025 Gurudharani N. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
